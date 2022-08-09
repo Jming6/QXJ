@@ -1,7 +1,8 @@
 public class text {
     public static void main(String[] args) {
-        System.out.print("hello 黄津耀");
-        System.out.println("sb");
-        System.out.println("sb");
+        dao dao = new daotext();
+        String a  = "s";
+        System.out.println(dao.b(2));
     }
+
 }
